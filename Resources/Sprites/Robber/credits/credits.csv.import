@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bsebki0qiehet"
+
+[deps]
+
+files=["res://Resources/Sprites/Robber/credits/credits.notes.translation", "res://Resources/Sprites/Robber/credits/credits.authors.translation", "res://Resources/Sprites/Robber/credits/credits.licenses.translation", "res://Resources/Sprites/Robber/credits/credits.urls.translation"]
+
+source_file="res://Resources/Sprites/Robber/credits/credits.csv"
+dest_files=["res://Resources/Sprites/Robber/credits/credits.notes.translation", "res://Resources/Sprites/Robber/credits/credits.authors.translation", "res://Resources/Sprites/Robber/credits/credits.licenses.translation", "res://Resources/Sprites/Robber/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

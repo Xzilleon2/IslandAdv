@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cvnhuagss15ct"
+
+[deps]
+
+files=["res://Resources/Sprites/mercenary/credits/credits.notes.translation", "res://Resources/Sprites/mercenary/credits/credits.authors.translation", "res://Resources/Sprites/mercenary/credits/credits.licenses.translation", "res://Resources/Sprites/mercenary/credits/credits.urls.translation"]
+
+source_file="res://Resources/Sprites/mercenary/credits/credits.csv"
+dest_files=["res://Resources/Sprites/mercenary/credits/credits.notes.translation", "res://Resources/Sprites/mercenary/credits/credits.authors.translation", "res://Resources/Sprites/mercenary/credits/credits.licenses.translation", "res://Resources/Sprites/mercenary/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

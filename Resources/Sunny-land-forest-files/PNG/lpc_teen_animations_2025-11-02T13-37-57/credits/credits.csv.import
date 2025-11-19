@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://befvhrea6se2p"
+
+[deps]
+
+files=["res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.notes.translation", "res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.authors.translation", "res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.licenses.translation", "res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.urls.translation"]
+
+source_file="res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.csv"
+dest_files=["res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.notes.translation", "res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.authors.translation", "res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.licenses.translation", "res://Resources/Sunny-land-forest-files/PNG/lpc_teen_animations_2025-11-02T13-37-57/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

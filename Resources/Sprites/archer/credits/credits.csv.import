@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b862bjdqdqmga"
+
+[deps]
+
+files=["res://Resources/Sprites/archer/credits/credits.notes.translation", "res://Resources/Sprites/archer/credits/credits.authors.translation", "res://Resources/Sprites/archer/credits/credits.licenses.translation", "res://Resources/Sprites/archer/credits/credits.urls.translation"]
+
+source_file="res://Resources/Sprites/archer/credits/credits.csv"
+dest_files=["res://Resources/Sprites/archer/credits/credits.notes.translation", "res://Resources/Sprites/archer/credits/credits.authors.translation", "res://Resources/Sprites/archer/credits/credits.licenses.translation", "res://Resources/Sprites/archer/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

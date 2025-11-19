@@ -1,0 +1,174 @@
+{
+  "exportTimestamp": "2025-11-12T14-20-04",
+  "bodyType": "male",
+  "standardAnimations": {
+    "exported": {
+      "spellcast": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "060 torso armour leather male forest.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "thrust": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "060 torso armour leather male forest.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "walk": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "060 torso armour leather male forest.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "slash": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "060 torso armour leather male forest.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "shoot": [
+        "0-1 weapon ranged bow recurve universal background medium.png",
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "060 torso armour leather male forest.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png",
+        "140 weapon ranged bow recurve universal foreground medium.png",
+        "150 weapon ranged bow arrow arrow.png"
+      ],
+      "hurt": [
+        "0-1 weapon ranged bow recurve universal background medium.png",
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "060 torso armour leather male forest.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png",
+        "140 weapon ranged bow recurve universal foreground medium.png"
+      ],
+      "climb": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "idle": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "jump": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "sit": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "emote": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "run": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "combat_idle": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "backslash": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ],
+      "halfslash": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png"
+      ]
+    },
+    "failed": {}
+  },
+  "customAnimations": {
+    "exported": {
+      "walk_128": [
+        "010 body bodies male light.png",
+        "020 legs pants male black.png",
+        "025 feet boots basic male green.png",
+        "035 torso clothes longsleeve longsleeve male brown.png",
+        "060 torso armour leather male forest.png",
+        "100 head heads human male light.png",
+        "120 hair messy1 adult light_brown.png",
+        "0-1 weapon ranged bow recurve walk background medium.png",
+        "141 weapon ranged bow recurve walk foreground medium.png"
+      ]
+    },
+    "failed": {}
+  },
+  "frameSize": 64,
+  "frameCounts": {
+    "spellcast": 7,
+    "thrust": 8,
+    "walk": 9,
+    "slash": 6,
+    "shoot": 13,
+    "hurt": 6,
+    "climb": 6,
+    "idle": 2,
+    "jump": 5,
+    "sit": 3,
+    "emote": 3,
+    "run": 8,
+    "combat_idle": 2,
+    "backslash": 13,
+    "halfslash": 7
+  }
+}
