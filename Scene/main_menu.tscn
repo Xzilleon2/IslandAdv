@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://clgvfiay0v62s"]
+
+[ext_resource type="Script" uid="uid://bm6dxk6cxbphq" path="res://Script/main_menu.gd" id="1_ftydy"]
+
+[node name="Main Menu" type="Node2D"]
+script = ExtResource("1_ftydy")
+
+[node name="Button Manager" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_top = -4.0
+offset_right = 1151.0
+offset_bottom = 644.0
+
+[node name="Start" type="Button" parent="Button Manager"]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 246.0
+offset_right = 698.0
+offset_bottom = 325.0
+text = "Start
+"
+
+[node name="Exit" type="Button" parent="Button Manager"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 448.0
+offset_top = 380.0
+offset_right = 702.0
+offset_bottom = 459.0
+text = "Exit
+"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 2.0
+offset_top = 100.0
+offset_right = 768.6667
+offset_bottom = 164.0
+scale = Vector2(1.5, 1.5)
+text = "\"Enjoyment is part of learning\""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Button Manager/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Button Manager/Exit" to="." method="_on_exit_pressed"]

@@ -424,4 +424,4 @@ layer_2/name = "Addon"
 layer_2/tile_data = PackedInt32Array(-458750, 1245185, 8, -589797, 1245185, 8, -1179636, 1245185, 8, -1376221, 1245185, 8, -720841, 1245185, 8, -1310669, 1245185, 8)
 
 [node name="Ball" parent="." instance=ExtResource("5_1wh8k")]
-position = Vector2(1290, -568)
+position = Vector2(947, -414)
