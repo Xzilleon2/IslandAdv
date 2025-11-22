@@ -437,4 +437,4 @@ position = Vector2(947, -414)
 shape = SubResource("WorldBoundaryShape2D_1wh8k")
 
 [node name="Gate" parent="." instance=ExtResource("6_1wh8k")]
-position = Vector2(2764, -546)
+position = Vector2(1632, -439)
