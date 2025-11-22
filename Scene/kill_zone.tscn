@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxgt7o0p4k8s1"]
+
+[sub_resource type="GDScript" id="GDScript_y0q8w"]
+script/source = "extends Area2D
+
+@onready var timer: Timer = $Timer
+
+func _on_body_entered(body: Node2D) -> void:
+	print(\"Character Died!\")
+	timer.start()
+
+
+func _on_timer_timeout() -> void:
+	get_tree().reload_current_scene()
+"
+
+[node name="KillZone" type="Area2D"]
+collision_mask = 2
+script = SubResource("GDScript_y0q8w")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

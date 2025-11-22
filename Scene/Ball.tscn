@@ -158,8 +158,9 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_lgdwr"]
 radius = 26.019224
 
-[node name="Ball" type="CharacterBody2D"]
+[node name="Ball" type="CharacterBody2D" groups=["Player"]]
 position = Vector2(1056, -367)
+collision_layer = 2
 script = ExtResource("1_bwwxe")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

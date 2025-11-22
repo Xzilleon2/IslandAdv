@@ -1,9 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://bvsrox07yu8q7"]
+[gd_scene load_steps=12 format=3 uid="uid://bvsrox07yu8q7"]
 
 [ext_resource type="Texture2D" uid="uid://bc5chblsgx3w1" path="res://Resources/woods_bg.jpg" id="1_07h3t"]
 [ext_resource type="Texture2D" uid="uid://plkii0tjgopt" path="res://Resources/Sunny-land-forest-files/PNG/environment/layers/tileset.png" id="2_o2q3j"]
 [ext_resource type="Texture2D" uid="uid://dtq68ojd55ts5" path="res://Resources/Sunny-land-forest-files/PNG/environment/layers/props.png" id="3_o2q3j"]
 [ext_resource type="PackedScene" uid="uid://c1xx0jwl3jbra" path="res://Scene/Ball.tscn" id="5_1wh8k"]
+[ext_resource type="PackedScene" uid="uid://dxgt7o0p4k8s1" path="res://Scene/kill_zone.tscn" id="5_jlusy"]
+[ext_resource type="PackedScene" uid="uid://dtp3lm4dfovur" path="res://Scene/gate.tscn" id="6_1wh8k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wxqtn"]
 texture = ExtResource("1_07h3t")
@@ -409,6 +411,9 @@ sources/0 = SubResource("TileSetAtlasSource_wxqtn")
 sources/1 = SubResource("TileSetAtlasSource_jlusy")
 sources/2 = SubResource("TileSetAtlasSource_1wh8k")
 
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_1wh8k"]
+distance = 1.0
+
 [node name="Forest" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -425,3 +430,11 @@ layer_2/tile_data = PackedInt32Array(-458750, 1245185, 8, -589797, 1245185, 8, -
 
 [node name="Ball" parent="." instance=ExtResource("5_1wh8k")]
 position = Vector2(947, -414)
+
+[node name="KillZone" parent="." instance=ExtResource("5_jlusy")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KillZone"]
+shape = SubResource("WorldBoundaryShape2D_1wh8k")
+
+[node name="Gate" parent="." instance=ExtResource("6_1wh8k")]
+position = Vector2(2764, -546)
